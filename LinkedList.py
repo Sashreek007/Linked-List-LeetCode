@@ -49,6 +49,7 @@ class LinkedList:
         for i in range(n):
             self.add(randint(min_value,max_value))
         return self
+    
 
 customLL = LinkedList()
 customLL.generate(10, 0, 99)
